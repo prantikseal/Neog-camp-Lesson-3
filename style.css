@@ -3,11 +3,14 @@
 :root{
     /* for the full page css */
     --primary-color: #fbbf24;
+    --secondary-color: #fef3c7;
     --dark-grey: #0f172a;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #FFF7D3;
+    margin: 0px;
 }
 hr{
     margin: 2rem 0;
@@ -93,4 +96,34 @@ hr{
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
     text-shadow: purple 0.2rem 0.2rem 30rem;
+}
+
+/* sections */
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+.ow{
+    background-color: var(--secondary-color);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    color: var(--dark-grey);
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer .link{
+    color: var(--dark-grey);
+}
+
+.footer ul{
+    scroll-padding-inline-start: 0px;
 }
