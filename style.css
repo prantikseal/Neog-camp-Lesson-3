@@ -3,7 +3,7 @@
 :root{
     /* for the full page css */
     --primary-color: #fbbf24;
-    --secondary-color: #fef3c7;
+    --secondary-color: white;
     --dark-grey: #0f172a;
 }
 
@@ -20,7 +20,12 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem; 
+    padding-bottom: 2rem;
     /* rem is dependent upon the font pixels */
+}
+.header-container{
+    padding-left: 1rem;
+    padding-right: 1rem; 
 }
 .container-center{
     max-width: 600px;
@@ -107,6 +112,10 @@ hr{
 .ow{
     background-color: var(--secondary-color);
 }
+.section-blk{
+    background-color: var(--dark-grey);
+    color: var(--primary-color);
+}
 
 /* footer */
 
@@ -126,4 +135,9 @@ hr{
 
 .footer ul{
     scroll-padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
