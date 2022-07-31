@@ -21,6 +21,7 @@ hr{
     padding-left: 1rem;
     padding-right: 1rem; 
     padding-bottom: 2rem;
+    padding-top: 0.1rem;
     /* rem is dependent upon the font pixels */
 }
 .header-container{
@@ -89,6 +90,8 @@ hr{
 }
 .hero .hero-img{
     max-width: 350px;
+    width: 100%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -99,15 +102,19 @@ hr{
 }
 
 .hero .hero-heading .heading-inverted{
-    color: var(--primary-color);
-    text-shadow: purple 0.2rem 0.2rem 30rem;
+    display: inline;
+    padding: .2em 0;
+    background: #FFC107;
+    box-shadow: .1em 0 0 var(--primary-color), -.1em 0 0 var(--primary-color);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius:1rem ;
 }
 
 /* sections */
 
 .section h1{
     text-align: center;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 .ow{
     background-color: var(--secondary-color);
