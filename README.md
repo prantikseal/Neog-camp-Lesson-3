@@ -1,6 +1,6 @@
-#Welcome to the code part of my Portfolio
+# Welcome to the code part of my Portfolio
 
-###These are the following things I learnt while implementing the project!
+### These are the following things I learnt while implementing the project!
 
 - Intro to HTML. excellent guide on Mozilla Developer Network (MDN) 
 
