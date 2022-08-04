@@ -16,4 +16,4 @@
 
 - CSS Variables
 
-Check the live Website: [here]{https://prantikkseal.netlify.app/}
+Check the live Website: [here](https://prantikkseal.netlify.app/)
