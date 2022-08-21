@@ -2,7 +2,9 @@
 
 ### This is what is looks like right now!
 
+<a href="https://prantikkseal.netlify.app/">
 <img src="https://s4.gifyu.com/images/ezgif.com-gif-maker8d74c8a9470ab3dc.gif" alt="porfolio website gif" width="600" height="226" style="width: 600px; height: 226px;">
+</a>
 
 ### These are the following things I learnt while implementing the project!
 
