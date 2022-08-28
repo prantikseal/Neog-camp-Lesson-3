@@ -26,6 +26,10 @@ hr{
 .header-text{
     margin: 0;
 }
+.home-linker{
+    text-decoration: none;
+    color: var(--dark-grey);
+}
 
 /* container */
 .container{
